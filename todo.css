@@ -1,0 +1,57 @@
+body{
+  font-family:Arial;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  background-color:rgb(25,25,25);
+}
+.all-container{
+ background-color:rgb(245,245,245);
+ padding: 10px 10px 200px;
+ border-radius:24px;
+} 
+
+.header-container,
+.list-container{
+  display:grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap:10px;
+}
+.list-container{
+  row-gap:10px;
+  align-items:center;
+}
+.header-container{
+  align-items:strech;
+  margin-bottom:15px;
+}
+.todo-input{
+  font-size:15px;
+  padding-left:5px;
+}
+.dueDate-input{
+  font-size:15px;
+  cursor:pointer;
+}
+.add-btn{
+  background-color:green;
+  color:white;
+  border:none;
+  border-radius:4px;
+  padding:8px;
+  font-size:15px;
+  cursor:pointer;
+}
+.add-btn:active{
+  margin-left:2px;
+  margin-toP:2px;
+}
+.delete-btn{
+  background-color:red;
+  color:white;
+  border:none;
+  border-radius:4px;
+  padding:8px;
+  cursor:pointer;
+}
